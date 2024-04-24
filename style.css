@@ -1,0 +1,81 @@
+:root{
+    --txt: rgb(255, 255, 255);
+}
+body{
+    background-color: black;
+    text-align: center;
+
+}
+h1{
+    color: var(--txt);
+    text-align: center;
+}
+.Rotation1{
+    animation: Rotation 2s linear infinite;
+    }
+    @keyframes Rotation{
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    .Rotation2{
+        animation: Rotation 10s linear infinite;
+        }
+        @keyframes Rotation{
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .Rotation3{
+            animation: Rotation 20s linear infinite;
+            }
+            @keyframes Rotation{
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            .Rotation1{
+                margin-right: 20px;
+            }
+            .Rotation2{
+                margin-right: 20px;
+            }
+            .Rotation3{
+                margin-right: 20px;
+            }
+            input{
+                background-color: brown;
+                font-size: large;
+                color: aliceblue;
+                border-radius: 20px;
+            }
+            input:hover{
+                background-color: chartreuse;
+                color: black;
+            }
+            section{
+                background-color: darkgray;
+                border-radius: 30px;
+                height: 300px;
+            }
+            table{
+                background-color: chocolate;
+                color: aliceblue;
+                margin-left: 500px;
+            }
+            footer{
+                background-color: brown;
+                color: aliceblue;
+            }
+            .PP{
+                color: aliceblue;
+            }
